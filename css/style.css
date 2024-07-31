@@ -7,6 +7,7 @@
   /* --dark: #0F4229; */
   --dark: #c5d766;
   --accent: #1ea2c7;
+  --info: #1ea2c7;
 }
 
 .text-black {
@@ -220,6 +221,10 @@ h6,
 }
 
 /*** Top Feature ***/
+.top-feature h4 {
+  color: var(--accent);
+}
+
 @media (min-width: 991.98px) {
   .top-feature {
     position: relative;
