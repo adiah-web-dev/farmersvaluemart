@@ -480,12 +480,23 @@ h6,
 }
 
 /*** Footer ***/
+.footer .btn.btn-outline-light {
+  color: black;
+  /* border-color: black; */
+  border: none;
+}
+
+.footer .btn.btn-outline-light:hover {
+  border-color: #fff;
+}
+
 .footer .btn.btn-link {
   display: block;
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: var(--light);
+  /* color: var(--light); */
+  color: black;
   font-weight: normal;
   text-transform: capitalize;
   transition: 0.3s;
@@ -500,7 +511,7 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-  color: var(--primary);
+  /* color: var(--primary); */
   letter-spacing: 1px;
   box-shadow: none;
 }
@@ -516,4 +527,10 @@ h6,
 
 .copyright a:hover {
   color: var(--primary);
+}
+
+/* Temporary */
+.placeholder {
+  height: 100vh;
+  background-color: lightblue;
 }
