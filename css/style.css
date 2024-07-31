@@ -517,15 +517,29 @@ h6,
 }
 
 .copyright {
-  color: var(--light);
-  background: #072a19;
+  /* color: var(--light); */
+  color: black;
+  /* background: #072a19; */
+  background-color: var(--primary);
 }
 
 .copyright a {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
+  text-decoration: underline;
 }
 
 .copyright a:hover {
+  /* color: var(--primary); */
+  color: #fff;
+}
+
+.copyright .hide {
+  color: var(--primary);
+}
+
+.copyright .hide a,
+.copyright .hide a:hover {
   color: var(--primary);
 }
 
