@@ -554,3 +554,27 @@ h6,
   height: 100vh;
   background-color: lightblue;
 }
+
+.variety-stats .card-group {
+  margin-bottom: 0.25rem;
+}
+
+.variety-stats .card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-block: 0.5rem;
+  padding-inline: 0.1rem;
+}
+
+.variety-stats .card h4 {
+  font-weight: 400;
+  color: black;
+  font-size: 1rem;
+}
+
+.variety-stats .card .card-text {
+  color: var(--primary);
+  font-size: 1.2rem;
+  text-align: center;
+}
