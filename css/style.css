@@ -578,3 +578,22 @@ h6,
   font-size: 1.2rem;
   text-align: center;
 }
+
+/*** Partner logos ***/
+.partner-logo {
+  width: 300px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 991.98px) {
+  .partners {
+    flex-direction: row;
+  }
+}
