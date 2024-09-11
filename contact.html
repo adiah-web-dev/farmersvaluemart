@@ -150,11 +150,15 @@
               If You Have Any Queries, Please Contact Us
             </h1>
 
-            <form>
+            <form
+              id="form"
+              action="https://api.web3forms.com/submit"
+              method="post"
+            >
               <input
                 type="hidden"
                 name="access_key"
-                value="YOUR_ACCESS_KEY_HERE"
+                value="e72461c7-f215-4050-a2fe-c6bb156bbb99"
               />
               <div class="row g-3">
                 <div class="col-md-6">
@@ -463,6 +467,13 @@
       class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
       ><i class="bi bi-arrow-up"></i
     ></a>
+
+    <script>
+      window.onload = function () {
+        // Reset the form fields when the page loads
+        document.getElementById("form").reset();
+      };
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
