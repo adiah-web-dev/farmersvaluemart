@@ -613,3 +613,8 @@ h6,
   width: 100%;
   height: 80vh;
 } */
+
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
