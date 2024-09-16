@@ -618,3 +618,33 @@ h6,
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+.distributor-card {
+  display: flex;
+}
+
+.distributor-img {
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#pjl {
+  background-image: url(../img/logos/PJL.jpg);
+}
+
+#fvm {
+  background-image: url(../img/logo-small.jpg);
+}
+
+#greenagro {
+  background-image: url(../img/logos/green_agro.png);
+}
+
+#kysar {
+  background-image: url(../img/logos/kysar.png);
+}
+
+#tozer {
+  background-image: url(../img/logos/tozer.jpg);
+}
