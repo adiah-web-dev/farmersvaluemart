@@ -619,17 +619,31 @@ h6,
   aspect-ratio: 16 / 9;
 }
 
-.distributor-card {
+.distributor-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .distributor-img {
-  width: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 120px;
+  max-height: 60px;
 }
 
-#pjl {
+/* .distributor-card {
+  display: flex;
+}
+
+.distributor-text {
+  width: 60%;
+}
+
+.distributor-img {
+  width: 40%;
+
+} */
+
+/* #pjl {
   background-image: url(../img/logos/PJL.jpg);
 }
 
@@ -647,4 +661,4 @@ h6,
 
 #tozer {
   background-image: url(../img/logos/tozer.jpg);
-}
+} */
