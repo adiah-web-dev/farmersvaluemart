@@ -662,3 +662,9 @@ h6,
 #tozer {
   background-image: url(../img/logos/tozer.jpg);
 } */
+
+.logo-container .portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
